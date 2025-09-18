@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- =========================================================
+       Luxury Decor Qatar — Premium Single-Page Website
+       ---------------------------------------------------------
+       HOW TO EDIT (important)
+       - Search for the word EDITABLE to find safe places to change text,
+         images, phone numbers, and colors.
+       - DO NOT EDIT blocks labeled DO NOT EDIT — those control layout/JS.
+       - Replace any online image with your own by saving a JPG/MP4 inside
+         /assets/ and updating the src to assets/your-file.jpg
+       ========================================================= -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luxury Decor Qatar — Curtains • Blinds • Upholstery</title>
+  <meta name="description" content="Luxury Decor Qatar supplies premium curtains, blinds, upholstery, flooring and wall décor in Doha. Free design visit and fast installation.">
+  <meta name="theme-color" content="#12244E">
+  <link rel="icon" href="assets/logo.jpg">
+  <!-- Basic OpenGraph for sharing -->
+  <meta property="og:title" content="Luxury Decor Qatar — Premium Interiors">
+  <meta property="og:description" content="Made-to-measure curtains, blinds & upholstery in Doha.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===================== Sticky Header (DO NOT EDIT IDs) ===================== -->
+  <header class="hd" role="banner">
+    <a class="brand" href="#home" aria-label="Luxury Decor Qatar">
+      <!-- EDITABLE: Replace assets/logo.jpg with your own file name -->
+      <img src="assets/logo.jpg" alt="Luxury Decor Qatar logo" width="40" height="40">
+      <strong>LUXURY DECOR QATAR</strong>
+    </a>
+    <nav class="nav-desktop" aria-label="Primary">
+      <!-- EDITABLE: Section links; keep the #ids to work with smooth scroll -->
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="openMenu" class="hamburger" aria-label="Open Menu">☰</button>
+  </header>
+
+  <!-- ===================== Mobile Full-Screen Menu ============================= -->
+  <aside id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <div class="menu-header">
+      <span>Menu</span>
+      <button id="closeMenu" class="btn btn-sm" aria-label="Close Menu">✕</button>
+    </div>
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <details>
+      <summary>Products</summary>
+      <div class="submenu">
+        <!-- EDITABLE: These anchor IDs must match the sections below -->
+        <a href="#curtains">Curtains</a>
+        <a href="#blinds">Blinds</a>
+        <a href="#flooring">Flooring</a>
+        <a href="#upholstery">Upholstery</a>
+      </div>
+    </details>
+    <a href="#contact">Contact</a>
+  </aside>
+
+  <!-- ===================== HERO ===================== -->
+  <main id="home" class="hero">
+    <div class="hero-inner">
+      <!-- EDITABLE: Headline and subhead -->
+      <h1>Premium Curtains, Blinds & Upholstery</h1>
+      <p>Made-to-measure. Hundreds of fabrics. Fast installation.</p>
+      <div class="cta">
+        <a href="#products" class="btn">Explore Products</a>
+        <a href="#contact" class="btn btn-outline">Request a Call Back</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <!-- EDITABLE: Replace online images with /assets/hero-1.jpg and /assets/hero-2.jpg (recommended 1600×1000 JPG) -->
+      <img src="assets/hero-2.png" alt="Modern living room with curtains">
+      <img src="assets/hero-2.png" alt="Blinds in a bright interior">
+    </div>
+  </main>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section alt">
+    <div class="container">
+      <h2>About Us</h2>
+      <!-- EDITABLE: Replace with your own story -->
+      <p class="lead">We are a Doha-based team providing luxury curtains, blinds, upholstery & flooring. We bring samples to your place, help you choose, measure precisely, and install quickly with a clean finish.</p>
+
+      <div class="features">
+        <!-- EDITABLE: Change images; recommended 1200×800 JPGs -->
+        <article class="card">
+          <img src="assets/hero-1.png" alt="Handcrafted finish">
+          <h3>Handcrafted Finish</h3>
+          <p>Tailored to your windows for a luxurious look and long life.</p>
+        </article>
+        <article class="card">
+          <img src="assets/hero-2.png" alt="Design visit">
+          <h3>Free Design Visit</h3>
+          <p>We visit with fabric books, discuss styles, shade and budget.</p>
+        </article>
+        <article class="card">
+          <img src="assets/hero-1.png" alt="Installation">
+          <h3>Fast Installation</h3>
+          <p>Professional, careful fitters — on time, every time.</p>
+        </article>
+      </div>
+
+      <!-- EDITABLE: Optional about gallery (5–6 images). Replace src with /assets/about-1.jpg ... about-6.jpg -->
+      <!--<div class="mini-gallery">
+        <img src="assets/hero-1.png" alt="Showroom 1">
+        <img src="assets/hero-1.png" alt="Showroom 2">
+        <img src="assets/hero-1.png" alt="Fabric wall">
+        <img src="assets/hero-1.png" alt="Work in progress">
+        <img src="assets/hero-1.png" alt="Team">
+        <img src="assets/hero-1.png" alt="Detail">
+      </div>-->
+    </div>
+  </section>
+
+  <!-- ===================== PRODUCTS ===================== -->
+  <section id="products" class="section">
+    <div class="container">
+      <h2>Our Products</h2>
+      <p class="lead">Each category is shown as a card. On phones, you’ll see ONE card per screen: big image + name + short description + Contact button. Below each card is a small gallery with 6 images you can replace.</p>
+
+      <!-- Curtains card -->
+      <article id="curtains" class="product-card">
+        <img src="assets/hero-2.png" alt="Curtains">
+        <div class="content">
+          <h3>Curtains</h3>
+          <p>Blackout, sheer, linen and layered looks — motorized tracks available.</p>
+          <a href="#contact" class="btn">Contact Us</a>
+          <div class="gallery-rail">
+            <!-- EDITABLE: swap any image with /assets/curtains-1.jpg ... curtains-6.jpg -->
+            <img src="assets/hero-2.png" alt="Blackout">
+            <img src="assets/hero-2.png" alt="Linen">
+            <img src="assets/hero-2.png" alt="Layered">
+            <img src="assets/hero-2.png" alt="Motorized">
+            <img src="assets/hero-2.png" alt="Pleated">
+            <img src="assets/hero-2.png" alt="Detail">
+          </div>
+        </div>
+      </article>
+
+      <!-- Blinds card -->
+      <article id="blinds" class="product-card">
+        <img src="assets/hero-1.png" alt="Blinds">
+        <div class="content">
+          <h3>Blinds</h3>
+          <p>Wooden, roller, zebra/combi, roman and vertical — manual or motorized.</p>
+          <a href="#contact" class="btn">Contact Us</a>
+          <div class="gallery-rail">
+            <!-- EDITABLE: replace with /assets/blinds-1.jpg ... blinds-6.jpg -->
+            <img src="assets/hero-1.png" alt="Wooden">
+            <img src="assets/hero-1.png" alt="Zebra">
+            <img src="assets/hero-1.png" alt="Screen">
+            <img src="assets/hero-1.png" alt="Roman">
+            <img src="assets/hero-1.png" alt="Detail">
+            <img src="assets/hero-1.png" alt="Roller">
+          </div>
+        </div>
+      </article>
+
+      <!-- Flooring card -->
+      <article id="flooring" class="product-card">
+        <img src="assets/hero-1.png" alt="Flooring">
+        <div class="content">
+          <h3>Flooring</h3>
+          <p>Vinyl, laminate, carpet tiles & area rugs — durable and stylish.</p>
+          <a href="#contact" class="btn">Contact Us</a>
+          <div class="gallery-rail">
+            <!-- EDITABLE: /assets/flooring-1.jpg ... flooring-6.jpg -->
+            <img src="assets/hero-1.png" alt="Laminate">
+            <img src="assets/hero-1.png" alt="Vinyl">
+            <img src="assets/hero-1.png" alt="Carpet">
+            <img src="assets/hero-1.png" alt="Tiles">
+            <img src="assets/hero-1.png" alt="Detail">
+            <img src="assets/hero-1.png" alt="Rug">
+          </div>
+        </div>
+      </article>
+
+      <!-- Upholstery card -->
+      <article id="upholstery" class="product-card">
+        <img src="assets/hero-1.png" alt="Upholstery">
+        <div class="content">
+          <h3>Upholstery</h3>
+          <p>Custom sofas, headboards, chairs and reupholstery with durable fabrics.</p>
+          <a href="#contact" class="btn">Contact Us</a>
+          <div class="gallery-rail">
+            <!-- EDITABLE: /assets/upholstery-1.jpg ... upholstery-6.jpg -->
+            <img src="assets/hero-1.png" alt="Sofa">
+            <img src="assets/hero-1.png" alt="Chairs">
+            <img src="assets/hero-1.png" alt="Ottoman">
+            <img src="assets/hero-1.png" alt="Panel">
+            <img src="assets/hero-1.png" alt="Detail">
+            <img src="assets/hero-1.png" alt="Headboard">
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <!-- EDITABLE: Your real details -->
+          <p><strong>Phone:</strong> <a data-phone href="tel:+97455224123">+974 5522 4123</a></p>
+          <p><strong>WhatsApp:</strong> <a data-whatsapp href="https://wa.me/97455224123">Message us</a></p>
+          <p><strong>Email:</strong> <a data-email href="mailto:luxurydecor.qa@gmail.com">luxurydecor.qa@gmail.com</a></p>
+          <p><strong>Address:</strong> Al Asmakh, Doha, Qatar</p>
+          <p>Working hours: Sat–Thu, 9am–8pm</p>
+        </div>
+        <!-- DO NOT EDIT: This is a mailto form so it works without a server -->
+        <form id="contactForm" class="contact-card" aria-label="Request a Call Back">
+          <div class="row">
+            <input name="name" type="text" placeholder="Your Name" required>
+            <input name="email" type="email" placeholder="Email Address" required>
+            <input name="phone" type="tel" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Tell us what you need…" rows="5"></textarea>
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FLOATING CONTACT (mobile+desktop) ===================== -->
+  <!-- Mobile bottom bar (always visible on phones) -->
+  <nav class="contact-bar" aria-label="Quick contact">
+    <a data-phone href="tel:+97455224123" aria-label="Call"><span><i class="fa-solid fa-phone" style="color: green;"></i></span><em>Phone</em></a>
+    <a data-whatsapp href="https://wa.me/97455224123" aria-label="WhatsApp"><span><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i></span><em>WhatsApp</em></a>
+    <a data-email href="mailto:luxurydecor.qa@gmail.com" aria-label="Email"><span><i class="fa-solid fa-envelope" style="color: purple;"></i></span><em>Email</em></a>
+    <button id="chatToggle" class="chat-btn" aria-label="Open chat"><span><i class="fa-solid fa-comment-dots" style="color: blue;"></i></span><em>Chat</em></button>
+  </nav>
+
+  <!-- Desktop vertical rail (right middle) -->
+  <nav class="contact-rail" aria-label="Quick contact desktop">
+    <a data-email class="rail-btn" href="mailto:luxurydecor.qa@gmail.com" title="Email"><i class="fa-solid fa-envelope" style="color: purple;"></i></a>
+    <a data-whatsapp class="rail-btn" href="https://wa.me/97455224123" title="WhatsApp"><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i></a>
+    <a data-phone class="rail-btn" href="tel:+97455224123" title="Call"><i class="fa-solid fa-phone" style="color: green;"></i></a>
+  </nav>
+
+  <!-- Desktop bottom-right chat button (label editable via CONFIG.chatLabel) -->
+  <button id="chatFab" class="chat-fab" aria-label="Open Live Chat">Let's Chat!</button>
+
+  <!-- Simple Chat Modal (works with mailto; swap for Tawk.to/WhatsApp widget later) -->
+  <aside id="chatBox" class="chat" aria-live="polite" aria-hidden="true">
+    <header>
+      <strong>Luxury Decor Qatar</strong>
+      <button id="chatClose" class="btn btn-sm" aria-label="Close chat">✕</button>
+    </header>
+    <form id="chatForm" class="chat-body">
+      <input name="name" type="text" placeholder="Your Name" required>
+      <input name="email" type="email" placeholder="Email">
+      <input name="phone" type="tel" placeholder="Phone">
+      <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </aside>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="ft">
+    <div class="container ft-grid">
+      <div class="ft-brand">
+        <img src="assets/logo.jpg" alt="Luxury Decor Qatar logo" width="56" height="56">
+        <p>LUXURY DECOR QATAR</p>
+        <small>Al Asmakh, Doha, Qatar</small>
+      </div>
+      <div class="ft-links">
+        <p><a data-phone href="tel:+97455224123">+974 5522 4123</a> • <a data-email href="mailto:luxurydecor.qa@gmail.com">luxurydecor.qa@gmail.com</a></p>
+        <p class="small">© <span id="year"></span> Luxury Decor Qatar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back-to-top -->
+  <button id="toTop" class="to-top" title="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+  <script src="scroll.js"></script>
+
+</body>
+</html>
